@@ -1,0 +1,27 @@
+# ❌ Виртуальное окружение
+venv/
+.env/
+
+# ❌ Секреты
+resources/
+*.json
+!example.credentials.json  # если хочешь оставить пример
+
+# ❌ Python кэш-файлы
+__pycache__/
+*.py[cod]
+
+# ❌ Логи
+*.log
+
+# ❌ IDE
+.vscode/
+.idea/
+
+# ❌ ОС
+.DS_Store
+Thumbs.db
+
+# ❌ Бэкапы
+*.bak
+*.swp
